@@ -1,5 +1,11 @@
 # emojii-deets
 
+## 1.2.1
+
+### Patch Changes
+
+- 679b383: Added length validation to passed string
+
 ## 1.2.0
 
 ### Minor Changes
