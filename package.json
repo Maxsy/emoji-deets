@@ -1,6 +1,6 @@
 {
   "name": "emojii-deets",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "Get details about emojiis",
   "main": "./lib/index.mjs",
   "type": "module",
