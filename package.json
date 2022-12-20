@@ -1,6 +1,6 @@
 {
   "name": "emoji-deets",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Get details about emojis",
   "main": "./lib/index.mjs",
   "type": "module",
