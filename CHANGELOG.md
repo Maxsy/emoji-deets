@@ -1,5 +1,12 @@
 # emojii-deets
 
+## 1.2.4
+
+### Patch Changes
+
+- ffb6289: Fixed publish script
+- 0399889: Changed access to public
+
 ## 1.2.3
 
 ### Patch Changes
