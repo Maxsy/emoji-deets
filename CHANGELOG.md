@@ -1,5 +1,11 @@
 # emojii-deets
 
+## 1.2.2
+
+### Patch Changes
+
+- 196d47a: Fixed an issue where the package tries to publish twice
+
 ## 1.2.1
 
 ### Patch Changes
