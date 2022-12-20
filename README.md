@@ -1,26 +1,26 @@
-# Welcome to Emojii Deets! 🪡
+# Welcome to Emoji Deets! 🪡
 
-This package is used to get details of an emojii.
+This package is used to get details of an emoji.
 
 ## Installation
 To install this package, run the following command:
 
 ```
-npm install emojii-deets
+npm install emoji-deets
 ```
 ## Usage
 To use this package in your code, you can import it like this:
 
 ```
-import emojiiCheck from 'emojii-deets'
+import emojiCheck from 'emoji-deets'
 ```
 You can then use the package's functions like this:
 
 ```
-emojiiCheck('🚀') 
+emojiCheck('🚀') 
 /* returns
     {
-        emojii: '🚀',
+        emoji: '🚀',
         unicodeEndpoint: '0x1f680',
         occurences: 40,
         position: 
@@ -36,10 +36,10 @@ emojiiCheck('🚀')
 ## Example usage
 Here are some examples of how you can use this package:
 ```
-import emojiiCheck from 'emojii-deets'
+import emojiCheck from 'emoji-deets'
 
-console.log(emojiiCheck('🚀').sentimentScore)   // returns sentiment of passed emojii
-console.log(emojiiCheck('🚀'))                  // returns an object with all the details
+console.log(emojiCheck('🚀').sentimentScore)   // returns sentiment of passed emoji
+console.log(emojiCheck('🚀'))                  // returns an object with all the details
 ```
 ## Contributing
 If you want to contribute to this package, please follow these steps:

@@ -1,7 +1,7 @@
 {
-  "name": "emojii-deets",
-  "version": "1.2.4",
-  "description": "Get details about emojiis",
+  "name": "emoji-deets",
+  "version": "0.0.0",
+  "description": "Get details about emojis",
   "main": "./lib/index.mjs",
   "type": "module",
   "types": "./index.d.ts",
@@ -31,19 +31,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Maxsy/emojii-deets.git"
+    "url": "git+https://github.com/Maxsy/emoji-deets.git"
   },
   "keywords": [
-    "Emojii",
+    "Emoji",
     "Details",
-    "emojii"
+    "emoji"
   ],
   "author": "maxii.zex@gmail.com",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Maxsy/emojii-deets/issues"
+    "url": "https://github.com/Maxsy/emoji-deets/issues"
   },
-  "homepage": "https://github.com/Maxsy/emojii-deets#readme",
+  "homepage": "https://github.com/Maxsy/emoji-deets#readme",
   "devDependencies": {
     "@changesets/cli": "^2.26.0",
     "@rollup/plugin-json": "^6.0.0",

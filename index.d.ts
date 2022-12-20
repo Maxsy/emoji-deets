@@ -1,2 +1,2 @@
 export * from "./lib";
-export as namespace EmojiiDeets;
+export as namespace EmojiDeets;

@@ -13,7 +13,7 @@ export default [
       },
       {
         file: "lib/index.umd.js",
-        name: "Emojii Deets",
+        name: "Emoji Deets",
         format: "umd",
         sourcemap: false,
       },

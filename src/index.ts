@@ -1,7 +1,7 @@
-import haystack from "../data/emojiis.json";
+import haystack from "../data/emojis.json";
 
-type EmojiiType = {
-  emojii: string;
+type EmojiType = {
+  emoji: string;
   unicodeEndpoint: string;
   occurrences: number;
   position: number;
@@ -17,11 +17,11 @@ type ErrorType = {
   error: string;
 };
 
-export default (needle: string): ErrorType | EmojiiType => {
+export default (needle: string): ErrorType | EmojiType => {
   if (needle.length !== 2) return { error: "Not found" };
 
   try {
-    return haystack.filter((emo: EmojiiType) => emo.emojii === needle)[0];
+    return haystack.filter((emo: EmojiType) => emo.emoji === needle)[0];
   } catch {
     return { error: "Not found" };
   }

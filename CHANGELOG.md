@@ -1,4 +1,4 @@
-# emojii-deets
+# emoji-deets
 
 ## 1.2.4
 
