@@ -1,5 +1,11 @@
 # emojii-deets
 
+## 1.2.3
+
+### Patch Changes
+
+- c32f212: Changed access to public
+
 ## 1.2.2
 
 ### Patch Changes
