@@ -23,6 +23,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rm -rf lib/*",
     "build": "npm run clean && npm run build:cjs && npm run build:esm",
+    "release": "npm run build && npm changeset publish",
     "build:esm": "rollup --config rollup.config.js",
     "build:cjs": "tsc -p tsconfig.cjs.json",
     "build:types": "tsc -p tsconfig.types.json",
@@ -44,6 +45,7 @@
   },
   "homepage": "https://github.com/Maxsy/emojii-deets#readme",
   "devDependencies": {
+    "@changesets/cli": "^2.26.0",
     "@rollup/plugin-json": "^6.0.0",
     "@rollup/plugin-typescript": "^10.0.1",
     "rollup": "^3.7.5",
