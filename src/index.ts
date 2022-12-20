@@ -13,10 +13,16 @@ type EmojiiType = {
   unicodeBlock: string;
 };
 
-export default (needle: string): boolean | EmojiiType => {
+type ErrorType = {
+  error: string;
+};
+
+export default (needle: string): ErrorType | EmojiiType => {
+  if (needle.length !== 2) return { error: "Not found" };
+
   try {
     return haystack.filter((emo: EmojiiType) => emo.emojii === needle)[0];
   } catch {
-    return false;
+    return { error: "Not found" };
   }
 };
